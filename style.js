@@ -50,11 +50,14 @@ export default StyleSheet.create({
     marginLeft: 45,
     marginRight: 45,
     marginBottom: 50,
+    alignItems: "center",
+    alignSelf: "center",
   },
   logoHeading: {
     fontSize: 30,
     color: '#fff',
     marginBottom: 40,
+    
   },
   TextInputFields: {
     zIndex: 3,
@@ -116,5 +119,14 @@ export default StyleSheet.create({
     color: '#fff',
     textAlign: 'center',
     fontSize: 17,
+  },
+  container: {
+    flex: 1,
+    backgroundColor: '#FFF',
+  },
+  text: {
+    color: '#161924',
+    fontSize: 20,
+    fontWeight: '500',
   },
 });
